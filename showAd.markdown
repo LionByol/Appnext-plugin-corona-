@@ -31,7 +31,7 @@ local function listener( event )
 	print( "Received " .. event.event .. " for " .. event.adKey .. " with message " .. event.message )
 end
 
--- Initialize the Appnext plugin
+-- Initialize the Appnext plug in
 appnext.init( listener )
 
 -- Create your Ads
