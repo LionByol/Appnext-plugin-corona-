@@ -56,4 +56,4 @@ rewardedAdKey = appnext.createAd( "rewarded", rewardedPlacementID )
 
 appnext.setCloseDelay( fullscreenAdKey, 5.5 )
 print( "Close button delay:" .. appnext.getCloseDelay( fullscreenAdKey ) )
-``````
+```````
