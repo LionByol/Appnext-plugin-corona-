@@ -9,6 +9,7 @@
 | __See also__         | [appnext.init()](init.markdown), [adEvent](adEvent.markdown)
 
 
+
 ## Overview
 
-The adKey of the ad for which this event was sent. 
+The adKey of the ad for which this event was sent.
