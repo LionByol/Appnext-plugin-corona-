@@ -22,6 +22,17 @@ This function is used to check if an ad previously created with [appnext.createA
 _[String](http://docs.coronalabs.com/api/type/String.html)._ The ad key received previously from [appnext.createAd()](createAd.markdown).
 
 
+## Examples
+
+``````lua
+local appnext = require 'plugin.appnext'
+
+local function listener( event )
+	print( "Received " .. event.event .. " for " .. event.adKey .. " with message " .. event.message )
+end
+
+-- Initialize the Appnext plugin
+appnext.init( listener )
 
 -- Create your Ads
 local interstitialPlacementID
